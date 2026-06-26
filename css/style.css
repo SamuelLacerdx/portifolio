@@ -94,10 +94,11 @@ nav {
   width: 100%;
 }
 
-nav > p {
+nav > a {
   font-weight: 700;
   font-size: 1.1rem;
   background: var(--grad-gta);
+  text-decoration: none;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -126,21 +127,22 @@ nav.hidden{
   transform: translateY(-150%);
 }
 
-header > div { flex-shrink: 0; }
+header > div { flex-shrink: 1; }
 
-header > div > p {
+header > div > a {
   background: var(--grad-gta);
   color: #fff;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
   padding: 0.5rem 1.25rem;
   border-radius: 50px;
   cursor: pointer;
   transition: opacity 0.2s, transform 0.2s;
   white-space: nowrap;
+  text-decoration: none;
 }
 
-header > div > p:hover {
+header > div > a:hover {
   opacity: 0.85;
   transform: scale(1.03);
 }
