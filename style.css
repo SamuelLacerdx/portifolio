@@ -121,6 +121,11 @@ nav ul li a {
 
 nav ul li a:hover { color: var(--rosa-claro); }
 
+nav.hidden{
+  transition: 2s;
+  transform: translateY(-150%);
+}
+
 header > div { flex-shrink: 0; }
 
 header > div > p {
@@ -138,6 +143,10 @@ header > div > p {
 header > div > p:hover {
   opacity: 0.85;
   transform: scale(1.03);
+}
+header.hidden{
+  transition: 2s;
+  transform: translateY(-150%);
 }
 
 /* ============================================================
